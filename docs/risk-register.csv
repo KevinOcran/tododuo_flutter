@@ -1,0 +1,12 @@
+RiskID,Description,Likelihood,Impact,Mitigation,Owner,Status
+R1,Webhook replay attack,Medium,High,Use idempotency keys and timestamps,Backend Lead,Open
+R2,Location spoofing (fake GPS),High,Medium,Apply recency checks and heuristics,Mobile Lead,Open
+R3,Unauthorized role escalation,Medium,Critical,Enforce RBAC with least privilege,Security Engineer,Open
+R4,Data leakage via logs,Medium,High,Mask/anonymize sensitive fields in logs,DevOps Lead,Open
+R5,Man-in-the-middle attack,Low,High,Enforce HTTPS/TLS and certificate pinning,Backend Lead,Open
+R6,Weak password usage,High,High,Enforce strong password policy + 2FA,Frontend Lead,Open
+R7,Denial of Service (DoS) attack,Medium,High,Rate limiting and WAF rules,DevOps Lead,Open
+R8,SQL/NoSQL injection,Low,Critical,Parameterized queries + validation,Backend Lead,Open
+R9,Insider data misuse,Low,Critical,Audit logs and anomaly detection,Admin,Open
+R10,Payment fraud/chargebacks,Medium,High,Integrate fraud detection + manual review,Finance Manager,Open
+

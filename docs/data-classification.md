@@ -51,3 +51,6 @@ This document enumerates all major data fields in the system and assigns a class
 - Backups: Encrypted, rotated every 30 days.  
 - Access Control: RBAC enforced for all sensitive data.  
 
+---
+🔗 **Next:** See [Data Retention Policies](./data-retention-policies.md) for how long each data type is stored and when it is deleted.
+
